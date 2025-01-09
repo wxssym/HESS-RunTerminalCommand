@@ -4,22 +4,9 @@ Run predefined terminal commands from Explorer context menu or Command Palette.
 
 ## See how it works
 
-![Example](img/example.gif)
+![Example](https://github.com/AdrianWilczynski/RunTerminalCommand/raw/master/img/example.gif)
 
 ## Configuration
-### How to edit your command list:
-
-VSCode -> File -> Preferences -> Settings 
-
-It will show the list: [Text Editor, Workbench, Window, Features, Application, Extension].
-
-Click on "Extensions", Scroll down and click on "Run Terminal Command" -> Edit in Settings.Json
-
-Or just open and edit directly the file:
-```C:\Users\{YOUR USERNAME}\AppData\Roaming\Code\User\Settings.Json```
-
-Now you can edit the commands you want:
-
 ```json
     "runTerminalCommand.commands": [
         {
@@ -36,7 +23,7 @@ Now you can edit the commands you want:
             "group": ".NET Core"
         },
         {
-            "command": "dotnet new page -n ",
+            "command": "dotnet add page -n ",
             "group": ".NET Core"
         },
         {
